@@ -1,8 +1,7 @@
 {
 	"name": "vivarium-agent-skills",
 	"owner": {
-		"name": "MWM AI",
-		"email": "matswm86@yahoo.no"
+		"name": "vivarium-agent-skills"
 	},
 	"metadata": {
 		"description": "Sourced agent skills for building and stocking closed glass habitats",
@@ -14,7 +13,9 @@
 			"description": "Design, build, stock, and troubleshoot paludariums, vivariums, terrariums, and aquariums. Covers structural glass, silicone, bracing, floor loading, climate and condensation, PPFD/PAR/UVB lighting, waterfalls and filtration, plant selection, animal compatibility, and bioactive clean-up crews. Every load-bearing number carries a source URL; gaps are marked UNVERIFIED rather than guessed.",
 			"source": "./",
 			"strict": false,
-			"skills": ["./skills/vivarium-expert"]
+			"skills": [
+				"./skills/vivarium-expert"
+			]
 		}
 	]
 }
