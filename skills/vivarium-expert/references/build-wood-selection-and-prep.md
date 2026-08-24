@@ -44,4 +44,4 @@ Two overlapping sourced explanations:
 - https://www.neherpetoculture.com/vivariumconstruction102.html and https://www.neherpetoculture.com/wood.html
 - https://www.wood-database.com/mopane/
 
-**Unverified:** "Airflow clears mould" — no source directly ties ventilation to mould clearance. The closest sourced statement is that mould "will be more apparent in highly humid vivariums… below 80% may have little to no visible growth," which implies the effect without stating the remedy.
+**Unverified:** "Airflow clears mould" — no source directly ties ventilation to mould clearance. The closest sourced statement is that mould "will be more apparent in highly humid vivariums… below 80% may have little to no visible growth," which implies the effect without stating the remedy. Also: Saprolegniales are described in the mycology literature as obligate-aquatic ("entirely dependent on water"), so the water-mould identification holds for submerged or waterlogged wood; a white bloom on merely humid land-side wood or moss is more likely a true fungus, and no source in this file covers that case.
