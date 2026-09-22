@@ -10,7 +10,7 @@
 	"plugins": [
 		{
 			"name": "vivarium-expert",
-			"description": "Design, build, stock, and troubleshoot paludariums, vivariums, terrariums, and aquariums. Covers structural glass, silicone, bracing, floor loading, climate and condensation, PPFD/PAR/UVB lighting, waterfalls and filtration, plant selection, animal compatibility, and bioactive clean-up crews. Every load-bearing number carries a source URL; gaps are marked UNVERIFIED rather than guessed.",
+			"description": "Design, build, stock, and troubleshoot paludariums, vivariums, terrariums, and aquariums. Covers structural glass, silicone, bracing, floor loading, climate and condensation, PPFD/PAR/UVB lighting, waterfalls and filtration, plant selection, animal compatibility, and bioactive clean-up crews. Every number a build or a stocking decision rests on carries a source URL; gaps are marked UNVERIFIED rather than guessed.",
 			"source": "./",
 			"strict": false,
 			"skills": [

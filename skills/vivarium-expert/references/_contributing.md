@@ -4,7 +4,7 @@ One rule per file. Keep files under ~2 KB so an agent can load several without b
 
 ## Rules for this skill
 
-1. **Every load-bearing number carries a URL.** A number without a source is not a rule, it is a guess.
+1. **Every number a decision rests on carries a URL.** A number without a source is not a rule, it is a guess.
 2. **Label your own arithmetic `(my calc)`.** Never place a calculated figure next to a citation as though the source produced it.
 3. **Write `UNVERIFIED` rather than guessing.** An honest gap is useful; a plausible invention is not.
 4. **When sources conflict, show both and name the conflict.** Do not silently pick a winner.

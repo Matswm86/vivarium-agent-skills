@@ -16,7 +16,7 @@ tags: climate, heating, amphibians, safety
 | Radiant heat panel (RHP, 28-160 W) | IR, penetrating | UNVERIFIED | UNVERIFIED |
 | Halogen / basking bulb (35-100 W+) | IR-A dominant + visible | **No** — bright visible light disrupts amphibian photoperiod and behaviour | **Yes, strongly** |
 
-**The load-bearing warning:** Josh's Frogs state a bulb or CHE in a dart frog vivarium causes "humidity loss due to evaporation," which is why they recommend a heat mat instead. They also note a CHE can exceed **49 C (120 F) within hours without a thermostat**.
+**The warning that matters:** Josh's Frogs state a bulb or CHE in a dart frog vivarium causes "humidity loss due to evaporation," which is why they recommend a heat mat instead. They also note a CHE can exceed **49 C (120 F) within hours without a thermostat**.
 
 **Recommended plans:**
 - **Amphibian-inclusive build:** insulate first. Then heat cable or mats on the **exterior** of the insulated rear/side panels — heating the panel, not creating a hotspot inside — plus the LED heat load during the day. Add a low-wattage RHP or DHP only if the top gradient is still short after insulating; mount it high, outside the animal space, thermostatted and guarded. **Never a bare bulb over amphibians.**

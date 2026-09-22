@@ -6,7 +6,7 @@ metadata:
   author: vivarium-agent-skills
   version: "0.1.0"
   date: August 2026
-  abstract: Sourced engineering, husbandry, and design reference for closed glass habitats. Covers structural glass, climate, lighting, water systems, plants, animals, and bioactive substrate biology across 52 single-topic rule files. Every load-bearing number carries a URL; the author's own arithmetic is labelled "(my calc)"; genuine gaps are written UNVERIFIED rather than filled with plausible invention. Includes explicit corrections to several widely repeated hobby claims that are wrong.
+  abstract: Sourced engineering, husbandry, and design reference for closed glass habitats. Covers structural glass, climate, lighting, water systems, plants, animals, and bioactive substrate biology across 52 single-topic rule files. Every number a build or a stocking decision rests on carries a URL; the author's own arithmetic is labelled "(my calc)"; genuine gaps are written UNVERIFIED rather than filled with plausible invention. Includes explicit corrections to several widely repeated hobby claims that are wrong.
 ---
 
 # Vivarium Expert
@@ -16,7 +16,7 @@ Sourced reference for building and stocking closed glass habitats — paludarium
 ## Core principles
 
 **1. A number without a source is a guess. Say which one you are giving.**
-This skill's reference files label every load-bearing figure with a URL, mark the author's own arithmetic `(my calc)`, and write `UNVERIFIED` where no source was found. Preserve that distinction when you answer. Never present a remembered figure as a sourced one.
+This skill's reference files label every figure a decision rests on with a URL, mark the author's own arithmetic `(my calc)`, and write `UNVERIFIED` where no source was found. Preserve that distinction when you answer. Never present a remembered figure as a sourced one.
 
 **2. When sources conflict, show both and name the conflict.**
 Several genuine disagreements exist in this literature — orchid PPFD (2-3x), succulent PPFD (an order of magnitude), whether silicone mildewcide leaches, whether boiling driftwood helps or harms, isopod seeding density (5x). Do not silently pick a winner.

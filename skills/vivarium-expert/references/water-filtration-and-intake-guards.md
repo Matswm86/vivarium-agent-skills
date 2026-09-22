@@ -7,7 +7,7 @@ tags: water, filtration, shrimp, safety, intake
 
 ## Any powered intake sharing water with shrimp gets a foam pre-filter
 
-A bare canister or pump intake pulls in shrimp larvae and juveniles and can injure or kill adult shrimp and small crab juveniles. Fit a **fine-pore foam pre-filter sponge directly over the intake strainer** — fine-pore specifically where *Caridina* or *Neocaridina* breeding is a goal, since the juvenile stage is most at risk. This is a load-bearing safety requirement for that stocklist, not a refinement.
+A bare canister or pump intake pulls in shrimp larvae and juveniles and can injure or kill adult shrimp and small crab juveniles. Fit a **fine-pore foam pre-filter sponge directly over the intake strainer** — fine-pore specifically where *Caridina* or *Neocaridina* breeding is a goal, since the juvenile stage is most at risk. This is a hard safety requirement for that stocklist, not a refinement.
 
 **Filtration options for a shallow, planted, warm paludarium pool:**
 
