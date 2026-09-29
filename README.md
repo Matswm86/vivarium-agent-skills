@@ -21,7 +21,7 @@ only the files it needs.
 the project and add `skills/vivarium-expert/SKILL.md` to the context.
 
 **A chat model with no file access.** Paste `SKILL.md` as the system prompt and paste the
-one or two reference files the question touches. Each file is 1 to 8 KB and self-contained
+one or two reference files the question touches. Each file is about 1.5 to 5 KB and self-contained
 on purpose, so this stays practical.
 
 **Claude Code**, where the skill format comes from, loads it directly:
@@ -77,7 +77,7 @@ categories:
 ## Contributing
 
 See [`skills/vivarium-expert/references/_contributing.md`](skills/vivarium-expert/references/_contributing.md).
-One rule per file, under about 2 KB, sourced. `test/sanity.py` checks frontmatter,
+One rule per file, about 3 KB and never over 6 KB, sourced. `test/sanity.py` checks frontmatter,
 filename prefixes, cross-links, sourcing discipline and scope; it is plain Python with no
 dependencies, so it runs anywhere.
 

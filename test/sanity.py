@@ -85,8 +85,8 @@ def check_references() -> None:
         if impact and impact not in VALID_IMPACT:
             fail(f"{path.name}: impact '{impact}' not one of {sorted(VALID_IMPACT)}")
         size = path.stat().st_size
-        if size > 8_000:
-            fail(f"{path.name} is {size} bytes; split it")
+        if size > 6_000:
+            fail(f"{path.name} is {size} bytes; the limit is 6 KB, split it")
 
 
 def check_cross_links() -> None:

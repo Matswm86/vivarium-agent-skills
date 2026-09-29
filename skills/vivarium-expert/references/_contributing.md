@@ -1,6 +1,6 @@
 # Contributing
 
-One rule per file. Keep files under ~2 KB so an agent can load several without burning context.
+One rule per file. Aim for about 3 KB and never exceed 6 KB, so an agent can load several without burning context. If a rule grows past 6 KB, split it into two single-topic files. The 56 current files run 1.5 to 5.2 KB, median 2.5 KB.
 
 ## Rules for this skill
 

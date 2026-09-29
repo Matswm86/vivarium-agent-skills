@@ -46,7 +46,7 @@ Rules on keeping, importing, or trading animals vary by country and change often
 
 ## How to use
 
-Read the individual rule files. Each is one topic, ~1-2 KB, so several load cheaply:
+Read the individual rule files. Each is one topic, about 1.5 to 5 KB, so several load cheaply:
 
 ```
 references/_sections.md                          category map and impact levels
