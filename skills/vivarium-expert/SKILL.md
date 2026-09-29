@@ -6,7 +6,7 @@ metadata:
   author: vivarium-agent-skills
   version: "0.1.0"
   date: August 2026
-  abstract: Sourced engineering, husbandry, and design reference for closed glass habitats. Covers structural glass, climate, lighting, water systems, plants, animals, and bioactive substrate biology across 52 single-topic rule files. Every number a build or a stocking decision rests on carries a URL; the author's own arithmetic is labelled "(my calc)"; genuine gaps are written UNVERIFIED rather than filled with plausible invention. Includes explicit corrections to several widely repeated hobby claims that are wrong.
+  abstract: Sourced engineering, husbandry, and design reference for closed glass habitats. Covers structural glass, climate, lighting, water systems, plants, animals, and bioactive substrate biology across 56 single-topic rule files. Every number a build or a stocking decision rests on carries a URL; the author's own arithmetic is labelled "(my calc)"; genuine gaps are written UNVERIFIED rather than filled with plausible invention. Includes explicit corrections to several widely repeated hobby claims that are wrong.
 ---
 
 # Vivarium Expert
