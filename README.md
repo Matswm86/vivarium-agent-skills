@@ -5,7 +5,7 @@ vivariums, terrariums and aquariums, and for keeping the plants and animals insi
 alive.
 
 It is written as an [Agent Skill](https://code.claude.com/docs/en/skills), but there is
-nothing model-specific in it. The content is 52 plain Markdown files plus one router
+nothing model-specific in it. The content is 56 plain Markdown files plus one router
 document. Any assistant that can read files can use it: Claude, Qwen, GPT, Gemini, a
 local Llama or Mistral through Ollama, or your own harness. Nothing here calls an API,
 imports an SDK, or assumes a particular tool surface.
@@ -14,7 +14,7 @@ imports an SDK, or assumes a particular tool surface.
 
 **Any agent that reads a folder.** Point it at `skills/vivarium-expert/`. Start with
 `SKILL.md`, which is the router: it carries the sourcing rules and a category map telling
-the agent which of the 52 reference files answers which kind of question. The agent reads
+the agent which of the 56 reference files answers which kind of question. The agent reads
 only the files it needs.
 
 **Cursor, Continue, opencode, Aider, Cline, or any editor agent.** Drop the folder into
@@ -38,19 +38,19 @@ ordinary Markdown.
 
 ## What is in it
 
-One skill, `vivarium-expert`, backed by 52 single-topic reference files across nine
+One skill, `vivarium-expert`, backed by 56 single-topic reference files across nine
 categories:
 
 | Prefix | Covers |
 |---|---|
-| `safety-` | Floor loading, glass failure modes, UVB injury |
-| `glass-` | Thickness calculation, silicone, bracing, seams, drilling |
+| `safety-` | Floor loading, glass failure modes, tempered glass and drilling, UVB injury |
+| `glass-` | Thickness calculation, silicone, bracing, seams |
 | `climate-` | Heat loss, heater selection, humidity, ventilation, condensation |
 | `light-` | PPFD/DLI, PAR falloff, UVB delivery, photoperiod |
 | `water-` | Pump head, filtration, intake guards, algae trajectory |
 | `fauna-` | Species data, mixed-species compatibility, stocking |
 | `flora-` | Plant selection, dormancy traps, invasive growth, biogeography |
-| `bioactive-` | Clean-up crew, seeding density, leaf litter |
+| `bioactive-` | Clean-up crew, seeding density, leaf litter and sterilisation, predatory mites |
 | `build-` | Backgrounds, wood, rock, composition, maturation |
 
 ## Sourcing rules
