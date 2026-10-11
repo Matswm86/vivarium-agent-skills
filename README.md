@@ -2,13 +2,18 @@
 
 A sourced reference pack for building and stocking closed glass habitats, paludariums,
 vivariums, terrariums and aquariums, and for keeping the plants and animals inside them
-alive.
+alive. It is meant for an assistant that answers questions from people designing, building
+or stocking such a habitat, and it gives every answer a source.
 
 It is written as an [Agent Skill](https://code.claude.com/docs/en/skills), but there is
 nothing model-specific in it. The content is 56 plain Markdown files plus one router
 document. Any assistant that can read files can use it: Claude, Qwen, GPT, Gemini, a
 local Llama or Mistral through Ollama, or your own harness. Nothing here calls an API,
 imports an SDK, or assumes a particular tool surface.
+
+![One rule file as rendered from the pack: the light falloff rule, with its wrong-versus-right formulas, the measured table, the sources and the Unverified note](docs/screenshot.png)
+
+*One reference file, with the nine categories and their file counts in the sidebar.*
 
 ## Using it
 
@@ -36,6 +41,14 @@ claude plugin marketplace add Matswm86/vivarium-agent-skills
 list, so a router can match a user question against it without an LLM call. The body is
 ordinary Markdown.
 
+## What it does
+
+- Works out how thick the glass has to be, which silicone to use and how to brace it.
+- Checks the failures that destroy builds first: floor loading, glass, heat and cold, uncured sealant.
+- Sizes heating, ventilation, lighting and pumps from figures that carry a source.
+- Answers "will X eat Y" and which plants and clean-up crew fit a given habitat.
+- Tells a sourced figure from the author's own arithmetic and from a gap nobody has filled.
+
 ## What is in it
 
 One skill, `vivarium-expert`, backed by 56 single-topic reference files across nine
@@ -52,6 +65,16 @@ categories:
 | `flora-` | Plant selection, dormancy traps, invasive growth, biogeography |
 | `bioactive-` | Clean-up crew, seeding density, leaf litter and sterilisation, predatory mites |
 | `build-` | Backgrounds, wood, rock, composition, maturation |
+
+## How it works
+
+`skills/vivarium-expert/SKILL.md` is a router. Its description is a list of trigger words,
+and its body carries the sourcing principles, a category map and the known gaps. The 56
+files under `references/` each cover one topic in 1.5 to 5 KB: the failure the rule
+prevents, wrong versus right, the mechanism with numbers, a check the reader can run, and
+sources with URLs. An agent reads the router, then loads only the files the question
+touches. There is no code to run; `test/sanity.py` is a plain Python check of frontmatter,
+file prefixes, cross-links, sourcing and scope.
 
 ## Sourcing rules
 
@@ -73,6 +96,13 @@ categories:
 - The vinegar drop test does not reliably detect carbonate rock.
 - "Neutral-cure silicone is the safe one" is backwards for structural glass seams.
 - Not all *Geosesarma* are direct developers: *G. hednon* has planktotrophic larvae.
+
+## Status
+
+Version 0.1.0 with 56 reference files. Gaps in the published literature are listed in
+`SKILL.md` and left open rather than filled with guesses: for example there is no
+published vent-area sizing rule for vivaria, no paludarium stocking-density guidance and
+no UVB dose-response data for amphibians.
 
 ## Contributing
 
